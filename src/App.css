@@ -1,0 +1,114 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#header {
+    position: absolute;
+    height: calc(100% - 63px);
+    width: 100%;
+    border: none;
+    margin-top: 63px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--bs-body-bg);
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+#home {
+    content: "";
+    background-color: rgb(178, 178, 255);
+    padding: 2%;
+    align-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.showcase-img {
+    width: 45vw;
+    position: sticky;
+}
+.showcase-img:hover{
+    flex-grow: 1;
+}
+
+.col-lg-6 order-lg-1 my-auto showcase-text {
+    margin: 30%;
+}
+
+#middel {
+    padding: 5%;
+}
+
+#end {
+    padding: 2%;
+    align-content: center;
+    height: 50vh;
+    background-color: rgb(178, 178, 255);
+    
+}
+
+img {
+    width: 15vw;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
